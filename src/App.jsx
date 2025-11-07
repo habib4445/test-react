@@ -1,5 +1,8 @@
 import { useState } from 'react';
 import './App.css';
+import Counter from './Counter';
+import Batsman from './Batsman';
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +21,9 @@ const handleAdd5 =(num)=>{
   return (
     <>
       <h1>Vite + React</h1>
+      <Batsman></Batsman>
+<Counter></Counter>
+
 <button onClick={handleClick} >Click Me</button>
 <button onClick={handleClick3} >Click Me2</button>
 <button onClick={()=> alert('clicked 4')} >Click Me4</button>
