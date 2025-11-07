@@ -37,9 +37,9 @@ const handleFour=()=>{
                 runs>=100 && <p>You score:Hundred</p>
             }
             <h1>Score:{runs} </h1>
-            <button onClick={handleSingles}>Singles</button>
-            <button onClick={handleFour} >Four</button>
-            <button onClick={handleSix} >Six</button>
+            <button className="bt" onClick={handleSingles}>Singles</button>
+            <button className="bt" onClick={handleFour} >Four</button>
+            <button className="bt" onClick={handleSix} >Six</button>
         </div>
     )
 }

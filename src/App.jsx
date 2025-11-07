@@ -25,10 +25,10 @@ const handleAdd5 =(num)=>{
       <Batsman></Batsman>
 <Counter></Counter>
 
-<button onClick={handleClick} >Click Me</button>
-<button onClick={handleClick3} >Click Me2</button>
-<button onClick={()=> alert('clicked 4')} >Click Me4</button>
-<button onClick={() => handleAdd5(10)} > Add 5</button>
+<button className='bt' onClick={handleClick} >Click Me</button>
+<button className='bt' onClick={handleClick3} >Click Me2</button>
+<button className='bt' onClick={()=> alert('clicked 4')} >Click Me4</button>
+<button className='bt' onClick={() => handleAdd5(10)} > Add 5</button>
 
     </>
   );

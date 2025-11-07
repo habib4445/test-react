@@ -9,9 +9,9 @@ export default function Counter() {
   
 
   return (
-    <div className="style">
+    <div className="ha">
       <h3>Count: {count}</h3>
-      <button onClick={handleAdd}>Add</button>
+      <button className="bt" onClick={handleAdd}>Add</button>
     </div>
   );
 }
