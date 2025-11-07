@@ -22,7 +22,7 @@ const handleFour=()=>{
         setRuns(updatedRuns); 
     }
     return(
-        <div>
+        <div className="hab">
             <h3>Player: Bangla Batsman</h3>
             {
                 <p> <small>Six: {sixes}</small> </p>

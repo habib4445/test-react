@@ -43,3 +43,15 @@
 .style{
   border:"2px solid green";
 }
+.habib{
+  border: 2px solid green;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.hab{
+  border:2px solid green;
+  margin:10px ;
+  padding: 10px;
+  border-radius: 20px;
+}
